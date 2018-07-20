@@ -14,17 +14,19 @@
             "aside"
             "footer";
     .header-container {
+      grid-gap: 0;
       grid-template-columns: 50% 50%;
       grid-template-areas:
               "menu-toggle icons"
               "logo logo";
+      padding: 10px;
+      align-items: center;
 
       .logo {
         justify-self: center;
       }
 
       .icons{
-        padding-right: 30px;
         justify-self: right;
       }
       .menu-toggle {

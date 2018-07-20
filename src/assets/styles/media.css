@@ -7,12 +7,14 @@
     grid-template-columns: 100%;
     grid-template-areas: "header" "main" "aside" "footer"; }
     .wrapper .header-container {
+      grid-gap: 0;
       grid-template-columns: 50% 50%;
-      grid-template-areas: "menu-toggle icons" "logo logo"; }
+      grid-template-areas: "menu-toggle icons" "logo logo";
+      padding: 10px;
+      align-items: center; }
       .wrapper .header-container .logo {
         justify-self: center; }
       .wrapper .header-container .icons {
-        padding-right: 30px;
         justify-self: right; }
       .wrapper .header-container .menu-toggle {
         display: block; }
