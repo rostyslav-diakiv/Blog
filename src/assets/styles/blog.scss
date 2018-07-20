@@ -22,17 +22,17 @@ body{
           "header header"
           "main   aside"
           "footer footer";
-}
 
-.menu-close {
-  display: none;
-}
-.menu-toggle {
-  padding: 10px 10px 0 5px;
-  font-size: 24px;
-  display: none;
-  grid-area: menu-toggle;
-  outline: none;
+  .menu-close {
+    display: none;
+  }
+  .menu-toggle {
+    padding: 10px 10px 0 5px;
+    font-size: 24px;
+    display: none;
+    grid-area: menu-toggle;
+    outline: none;
+  }
 }
 
 .fa-bars {

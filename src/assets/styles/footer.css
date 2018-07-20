@@ -8,17 +8,15 @@
   .footer a {
     color: #efedd9;
     margin-left: 3px; }
-
-.contacts-wrapper {
-  display: flex;
-  justify-content: space-between; }
-
-.contacts-inline {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-  text-align: center; }
-  .contacts-inline div {
-    margin-left: 20px; }
+  .footer .contacts-wrapper {
+    display: flex;
+    justify-content: space-between; }
+  .footer .contacts-inline {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center; }
+    .footer .contacts-inline div {
+      margin-left: 20px; }
 
 /*# sourceMappingURL=footer.css.map */

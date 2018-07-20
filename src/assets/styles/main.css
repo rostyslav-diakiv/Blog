@@ -46,10 +46,10 @@
         justify-content: space-between;
         align-items: center;
         justify-items: center; }
-      .main .articles-container .article .article-icons p,
-      .main .articles-container .article i {
-        display: inline; }
-      .main .articles-container .article .article-date {
-        margin-left: 5px; }
+        .main .articles-container .article .article-bottom .article-icons p,
+        .main .articles-container .article .article-bottom i {
+          display: inline; }
+        .main .articles-container .article .article-bottom .article-date {
+          margin-left: 5px; }
 
 /*# sourceMappingURL=main.css.map */

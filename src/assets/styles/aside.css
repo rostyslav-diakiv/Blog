@@ -16,11 +16,10 @@
     width: 100%;
     margin-bottom: 10px;
     background: #b5b5b7; }
-  .aside .profile h1 {
-    font-size: 30px;
-    color: #1b1324; }
-  .aside .profile .summary {
-    margin: 10px; }
+    .aside .block .block-header, .aside .block .profile h1, .aside .profile .block h1, .aside .block .comments-block .comments-header, .aside .comments-block .block .comments-header {
+      font-size: 25px;
+      text-align: center;
+      margin-bottom: 15px; }
   .aside .profile img {
     background-color: color(grey);
     height: 80%;
@@ -28,23 +27,11 @@
     border-radius: 50%;
     margin: auto auto 15px;
     display: block; }
-  .aside .block-header, .aside .profile h1, .aside .comments-header {
-    font-size: 25px;
-    text-align: center;
-    margin-bottom: 15px; }
-  .aside .search-block input {
-    float: left;
-    width: calc(100% - 40px);
-    padding: 5px 10px;
-    border: 1px solid #9a9a9a; }
-  .aside .search-block button {
-    background: #252839;
-    outline: none;
-    width: 30px;
-    border: none;
-    padding: 6px; }
-    .aside .search-block button i {
-      color: #ffe037; }
+  .aside .profile h1 {
+    font-size: 30px;
+    color: #1b1324; }
+  .aside .profile .content {
+    margin: 10px; }
   .aside .icons-block {
     padding: 5px;
     font-size: 30px;
@@ -59,18 +46,31 @@
       color: #ffe037; }
     .aside .icons-block i:hover {
       transform: scale(1.2); }
-  .aside .subscribe input {
+  .aside .subscribe-block .subscribe input {
     width: 100%;
     margin-top: 10px;
     padding: 10px;
     color: black;
     border-radius: 5px; }
-  .aside .subscribe button {
+  .aside .subscribe-block .subscribe button {
     width: 100%;
     margin-top: 10px;
     padding: 10px;
     border-radius: 15px;
     background-color: #ffe037; }
+  .aside .search-block input {
+    float: left;
+    width: calc(100% - 40px);
+    padding: 5px 10px;
+    border: 1px solid #9a9a9a; }
+  .aside .search-block button {
+    background: #252839;
+    outline: none;
+    width: 30px;
+    border: none;
+    padding: 6px; }
+    .aside .search-block button i {
+      color: #ffe037; }
   .aside .tags-block .tags span {
     display: inline-block;
     padding: 5px;
@@ -80,12 +80,12 @@
     .aside .tags-block .tags span a {
       color: #252839;
       text-decoration: none; }
-  .aside .comments-header {
-    grid-column: 1/3; }
   .aside .comments-block {
     display: grid;
     grid-gap: 7px;
     grid-template-columns: 60px calc(100% - 60px); }
+    .aside .comments-block .comments-header {
+      grid-column: 1/3; }
     .aside .comments-block .avatar {
       grid-column: 1/2;
       border-radius: 50%;

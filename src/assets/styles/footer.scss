@@ -12,25 +12,17 @@
     color: $header_footer_c;
     margin-left: 3px;
   }
-}
-
-.contacts-wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-
-.copyrights{
-}
-
-.address{
-}
-
-.contacts-inline{
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-  text-align: center;
-  div {
-    margin-left: 20px;
+  .contacts-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contacts-inline{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+    div {
+      margin-left: 20px;
+    }
   }
 }
