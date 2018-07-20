@@ -1,0 +1,70 @@
+.header {
+  background-color: #252839;
+  color: #efedd9;
+  grid-area: header; }
+
+.header-container {
+  margin: auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 250px auto 400px;
+  grid-template-rows: 20% auto 15%;
+  grid-template-areas: "logo . icons" "logo . ." "logo . navig"; }
+
+.logo {
+  grid-area: logo;
+  max-height: 100px;
+  font-family: 'Pacifico', initial, cursive;
+  font-size: 60px;
+  padding: 10px 10px 20px; }
+  .logo a {
+    text-decoration: none;
+    color: #ffe037; }
+
+.icons {
+  grid-area: icons;
+  justify-self: stretch;
+  align-items: center;
+  padding: 5px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .icons .search-wrapper a {
+    color: #ffe037;
+    float: left;
+    padding-right: 10px; }
+  .icons .search {
+    display: flex;
+    border: 1px solid #b5b5b7; }
+  .icons .social-icons a {
+    color: #ffe037;
+    text-decoration: none;
+    padding: 5px; }
+  .icons .social-icons i:hover {
+    transform: scale(1.2); }
+
+.menu {
+  grid-area: navig;
+  font-size: 20px; }
+  .menu ul {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style-type: none; }
+    .menu ul li a {
+      color: #efedd9;
+      text-decoration: none; }
+      .menu ul li a:hover {
+        background-color: #b5b5b7;
+        color: #252839; }
+      .menu ul li a:nth-child(4) {
+        padding-right: 5px; }
+
+.fa-times {
+  color: #ffe037; }
+
+.fa-times:hover {
+  color: #ff0000; }
+
+/*# sourceMappingURL=header.css.map */

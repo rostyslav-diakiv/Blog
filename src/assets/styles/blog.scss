@@ -1,0 +1,53 @@
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Calibri", serif;
+}
+
+.wrapper{
+  background-color: $header_footer_c;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-gap: 7px;
+  grid-template-columns: auto 300px;
+  grid-template-rows: 20% auto 15%;
+  grid-template-areas:
+          "header header"
+          "main   aside"
+          "footer footer";
+}
+
+.menu-close {
+  display: none;
+}
+.menu-toggle {
+  padding: 10px 10px 0 5px;
+  font-size: 24px;
+  display: none;
+  grid-area: menu-toggle;
+  outline: none;
+}
+
+.fa-bars {
+  color: $icon-color_c;
+}
+
+.fa-bars:hover {
+  color: $icon-color_alt;
+}
+
+
+.fa-star {
+  color: #f6ff00;
+}
+
+.fa-comments {
+  color: #4bfe41;
+}

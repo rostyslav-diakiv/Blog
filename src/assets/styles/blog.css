@@ -1,99 +1,41 @@
-/* Style для всіх елементів з класом form-wrp-ctrl які є дочірніми(вкладеними)
-  елементами з будь якою вкладеністю, елементів з класом form-wrp*/
-.form-wrp .form-wrp-ctrl {
-
-}
-
-/* Style для всіх елементів з класом link які
-   є прямими потомками тобто дочірніми(вкладеними)
-   елементами, елементів з класом form-wrp*/
-.form-wrp > .link {
-
-}
-
-/* Вибери всі інпети в яких клас форм form-ctrl */
-input.form-ctrl {
-
-}
-
-/* Можна комбінувати всі шо зверху */
-
-/* Всі інпути з такими атрибутами будуть мати такі стилі */
-input[type="text"] {
-
-}
-
 * {
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-html {
-    margin:    0 auto;
-    max-width: 1200px;
-}
-
-/* Add a gray background color with some padding */
 body {
-    font-family: Arial;
-    padding: 20px;
-    background: #f1f1f1;
-}
+  font-family: "Calibri", serif; }
 
-/* Header/Blog Title */
-.header {
-    padding: 30px;
-    font-size: 40px;
-    text-align: center;
-    background: white;
-}
+.wrapper {
+  background-color: #efedd9;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-gap: 7px;
+  grid-template-columns: auto 300px;
+  grid-template-rows: 20% auto 15%;
+  grid-template-areas: "header header" "main   aside" "footer footer"; }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {
-    float: left;
-    width: 75%;
-}
+.menu-close {
+  display: none; }
 
-/* Right column */
-.rightcolumn {
-    float: left;
-    width: 25%;
-    padding-left: 20px;
-}
+.menu-toggle {
+  padding: 10px 10px 0 5px;
+  font-size: 24px;
+  display: none;
+  grid-area: menu-toggle;
+  outline: none; }
 
-/* Fake image */
-.fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-}
+.fa-bars {
+  color: #ffe037; }
 
-/* Add a card effect for articles */
-.card {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-}
+.fa-bars:hover {
+  color: #ff0000; }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+.fa-star {
+  color: #f6ff00; }
 
-/* Footer */
-.footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
-}
+.fa-comments {
+  color: #4bfe41; }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {
-        width: 100%;
-        padding: 0;
-    }
-}
+/*# sourceMappingURL=blog.css.map */
