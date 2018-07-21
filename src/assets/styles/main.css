@@ -27,7 +27,8 @@
         .main .articles-container .article .article-photo img {
           width: 100%;
           transition: transform .7s;
-          position: relative; }
+          position: relative;
+          display: block; }
       .main .articles-container .article .article-data {
         display: flex;
         flex-wrap: wrap;
