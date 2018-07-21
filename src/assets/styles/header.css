@@ -9,6 +9,12 @@
     grid-template-columns: 250px auto 400px;
     grid-template-rows: 20% auto 15%;
     grid-template-areas: "logo . icons" "logo . ." "logo . navig"; }
+    .header .header-container .menu-toggle {
+      padding: 10px 10px 0 5px;
+      font-size: 24px;
+      display: none;
+      grid-area: menu-toggle;
+      outline: none; }
     .header .header-container .logo {
       grid-area: logo;
       max-height: 100px;
@@ -43,6 +49,8 @@
     .header .header-container .menu {
       grid-area: navig;
       font-size: 20px; }
+      .header .header-container .menu .menu-close {
+        display: none; }
       .header .header-container .menu ul {
         display: inline-flex;
         justify-content: space-between;

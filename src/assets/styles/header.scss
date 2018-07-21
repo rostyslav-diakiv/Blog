@@ -12,6 +12,14 @@
     grid-template-rows: 20% auto 15%;
     grid-template-areas: "logo . icons" "logo . ." "logo . navig";
 
+    .menu-toggle {
+      padding: 10px 10px 0 5px;
+      font-size: 24px;
+      display: none;
+      grid-area: menu-toggle;
+      outline: none;
+    }
+
     .logo {
       grid-area: logo;
       max-height: 100px;
@@ -62,6 +70,10 @@
     .menu {
       grid-area: navig;
       font-size: 20px;
+
+      .menu-close {
+        display: none;
+      }
 
       ul {
         display: inline-flex;

@@ -71,6 +71,8 @@
     padding: 6px; }
     .aside .search-block button i {
       color: #ffe037; }
+  .aside .tags-block .tags {
+    text-align: center; }
   .aside .tags-block .tags span {
     display: inline-block;
     padding: 5px;

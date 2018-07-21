@@ -15,14 +15,6 @@ body {
   grid-template-columns: auto 300px;
   grid-template-rows: 20% auto 15%;
   grid-template-areas: "header header" "main   aside" "footer footer"; }
-  .wrapper .menu-close {
-    display: none; }
-  .wrapper .menu-toggle {
-    padding: 10px 10px 0 5px;
-    font-size: 24px;
-    display: none;
-    grid-area: menu-toggle;
-    outline: none; }
 
 .fa-bars {
   color: #ffe037; }

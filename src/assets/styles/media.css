@@ -48,9 +48,9 @@
         color: #efedd9; }
         .wrapper .header-container .menu ul {
           display: block; }
-      .wrapper .header-container a.menu-close {
-        display: block;
-        padding: 5px 10px; }
+        .wrapper .header-container .menu a.menu-close {
+          display: block;
+          padding: 5px 10px; }
       .wrapper .header-container .main-menu li {
         display: block;
         padding: .75em 15px;
